@@ -1,0 +1,53 @@
+.sidenav {
+    max-width: 100px;
+    background-color: #455A64;
+}
+
+.home_icon,
+.search_icon,
+.admin_icon {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.sidenav_icon {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 2.1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidenav_icon:hover {
+    font-size: 1.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidenav_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 10%;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+    background-color: #C48879;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.sidenav_item_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}

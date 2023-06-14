@@ -1,0 +1,316 @@
+@keyframes cardAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.dashboard-users {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+
+.dashboard-button {
+    background-color: #a16355;
+    border: #a16355;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.dashboard-button:hover {
+    background-color: #a16355;
+    border: #a16355;
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.dashboard-button:active {
+    background-color: #a1635588 !important;
+    border: #a1635588 !important;
+}
+
+.dashboard-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.dashboard-texte {
+    text-transform: uppercase;
+}
+
+.dashboard-card {
+    background-color: #B1776A;
+    color: white;
+    border: 1px solid #B1776A;
+    width: 60%;
+    height: 270px;
+    margin: 20px;
+    animation: cardAppear 0.5s ease-in-out;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.dashboard-card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.dashboard-icon {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.dashboard-card:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.3);
+}
+
+.dashboard-card:hover .dashboard-icon {
+    font-size: 100px;
+    transition: all 0.3s ease;
+}
+
+.dashboard-card-text {
+    display: none;
+    width: 100%;
+}
+
+.dashboard-card-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.dashboard-card-text-icon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dashboard-icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+}
+
+.dashboard-card-button {
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0;
+}
+
+.dashboard-button-trash,
+.dashboard-button-info {
+    background-color: #a16355;
+    border: 1px solid #a16355;
+    color: white;
+    margin: 0 3px;
+}
+
+.dashboard-button-trash:hover {
+    background-color: #A10702;
+    border: 1px solid #A10702;
+    transition: all 0.3s ease;
+}
+
+.dashboard-button-trash:active {
+    background-color: #A10702 !important;
+    border: 1px solid #A10702 !important;
+    transition: all 0.3s ease;
+}
+
+
+.dashboard-button-info:hover {
+    background-color: #0F5257;
+    border: 1px solid #0F5257;
+    transition: all 0.3s ease;
+}
+
+.dashboard-button-info:active {
+    background-color: #0F5257 !important;
+    border: 1px solid #0F5257 !important;
+    transition: all 0.3s ease;
+}
+
+.swal2-popup {
+    border-radius: 10px;
+    color: #fff;
+    background-color: #b1776a;
+    font-family: 'Alphakind', sans-serif;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #0F5257;
+}
+
+.swal2-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Alphakind', sans-serif;
+    font-weight: 500;
+    padding: 0 50px;
+}
+
+.swal2-html-users {
+    text-transform: uppercase;
+    font-family: 'Alphakind', sans-serif;
+    font-weight: 200;
+}
+
+.swal2-confirm {
+    color: #e5e5e5;
+    background-color: #721121;
+    border: #721121;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-family: 'Alphakind', sans-serif;
+}
+
+.swal2-confirm:hover {
+    background-color: #721121;
+    border: #721121;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.swal2-cancel {
+    color: #e5e5e5;
+    background-color: #0F5257;
+    border: #0F5257;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-family: 'Alphakind', sans-serif;
+}
+
+.swal2-cancel:hover {
+    background-color: #0F5257;
+    border: #0F5257;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.swal2-icon.swal2-warning {
+    border-color: #fff;
+    color: #fff;
+    font-family: 'Alphakind', sans-serif;
+    margin-bottom: 28px;
+    margin-top: 32px;
+}
+
+.swal2-confirm.swal2-styled {
+    background-color: #0F5257;
+    border: #0F5257;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-family: 'Alphakind', sans-serif;
+}
+
+.swal2-confirm.swal2-styled:hover {
+    background-color: #0F5257;
+    border: #0F5257;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+    border: 0.25em solid #fff;
+}
+
+.swal2-icon.swal2-success {
+    font-family: 'Alphakind', sans-serif !important;
+    margin-bottom: 30px !important;
+}
+
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: 0 0 0 0.2rem #0F5257;
+}
+
+.swal2-icon.swal2-info {
+    border-color: #fff;
+    color: #fff;
+    font-family: 'Alphakind', sans-serif;
+    margin-bottom: 28px;
+    margin-top: 32px;
+}
+
+.swal2-html-users {
+    text-transform: uppercase !important;
+    font-family: 'Alphakind', sans-serif !important;
+    font-weight: 200 !important;
+}
+
+.dashboard-pets {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}

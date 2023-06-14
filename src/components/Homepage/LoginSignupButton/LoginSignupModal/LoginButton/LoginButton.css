@@ -1,0 +1,19 @@
+.login-button {
+  background-color: #455A64;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #87A878;
+}
+
+.login-button:active {
+  background-color: #a4cc92 !important;
+  border: none !important;
+  color: white !important;
+}

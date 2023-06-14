@@ -1,0 +1,129 @@
+@keyframes cardAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.form-profile-settings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    margin-top: 45px;
+    animation: cardAppear 0.5s ease-in-out;
+}
+
+.form-profile-settings input::placeholder {
+    color: #455a64ad;
+}
+
+.form-profile-settings input {
+    color: #202324;
+}
+
+.form-profile-settings textarea {
+    color: #202324;
+}
+
+.input-role {
+    color: #455a64ad !important;
+}
+.empty-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.profile-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.profile-settings label {
+    display: flex;
+    padding: 0.5rem;
+    border: 1px solid #C48879;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.profile-settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+.submit-profile-settings {
+    width: 100%;
+    background-color: #455A64b2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.submit-profile-settings:hover {
+    background-color: #455A64 !important;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.profile-settings select {
+    display: flex;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.title-profile-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.text-profile-settings {
+    text-transform: uppercase;
+}
+
+.text-error-profile-settings, .text-success-profile-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+.icon-profile {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.75rem;
+    color: #C48879;
+}
+
+.input-icon {
+    width: 100%;
+}
+
+

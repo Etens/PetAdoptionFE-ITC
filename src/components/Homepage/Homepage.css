@@ -1,0 +1,44 @@
+@keyframes move-in {
+  from {
+      transform: translate(0, -20px);
+      opacity: 0;
+  }
+
+  to {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+}
+
+
+.homepage-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.homepage-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.homepage-image-login {
+  margin-top: 25px;
+  max-width: 30%;
+  height: 100%;
+  animation: move-in ease-in-out;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.homepage-image-logout {
+  margin-top: -20px;
+  max-width: 35%;
+  height: 100%;
+  animation: move-in ease-in-out;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}

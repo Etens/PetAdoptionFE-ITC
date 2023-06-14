@@ -1,0 +1,21 @@
+.login-form label {
+  margin-top: 0.5rem;
+  font-size: 13px;
+  color: #455a64ad;
+}
+
+.login-image {
+  position: absolute;
+  top: 0;
+  left: 6%;
+  width: 35%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.75rem;
+  color: #ced4da;
+}

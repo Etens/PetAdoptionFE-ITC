@@ -1,0 +1,30 @@
+.signup-select {
+    border-radius: 5px;
+    color: #455A64;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 100%;
+    text-decoration: none;
+}
+
+.signup-select:hover {
+    color: #455A64;
+}
+
+.signup-select-active {
+    background-color: #C48879;
+    color: white;
+    text-decoration: none;
+}
+
+.signup-select-active:hover {
+    background-color: #C48879;
+    color: white;
+}
+
+.signup-select:active {
+    background-color: #C48879 !important;
+    border: none !important;
+    color: white !important;
+}

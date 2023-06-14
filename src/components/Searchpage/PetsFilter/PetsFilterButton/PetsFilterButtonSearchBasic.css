@@ -1,0 +1,23 @@
+.pets_filter_button_search_basic {
+  background-color: #455A64;
+  border: 1px solid #455A64;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.pets_filter_button_search_basic:hover {
+  background-color: #607D8B;
+  border: 1px solid #607D8B;
+  transform: scale(1.05);
+  transition: all 0.3s ease-out;
+}
+
+.pets_filter_button_search_basic:active {
+  background-color: #607D8B !important;
+  border: 1px solid #607D8B !important;
+}
+

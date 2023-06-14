@@ -1,0 +1,65 @@
+.login_signup_button {
+  color: #e5e5e5;
+  background-color: #C48879;
+  border: #C48879;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0 10px;
+  padding: 0 20px;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.login_signup_button:hover {
+  background-color: #C48879;
+  border: #C48879;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.login_signup_button:active {
+  background-color: #f0a997 !important;
+  border: #f0a997 !important;
+}
+
+.logout_button {
+  color: #e5e5e5;
+  background-color: #721121;
+  border: #721121;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0 10px;
+  padding: 0 20px;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.logout_button:hover {
+  background-color: #721121;
+  border: #721121;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.logout_button:active, .logout_button:focus {
+  background-color: #a42a2a !important;
+  border: none !important;
+}

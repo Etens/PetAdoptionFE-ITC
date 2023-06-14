@@ -1,0 +1,18 @@
+@keyframes move-in {
+    from {
+        transform: translate(0, -20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+
+.search-image {
+    animation: move-in ease-in-out;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}

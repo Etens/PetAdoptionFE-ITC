@@ -1,0 +1,103 @@
+.pets-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.pets-filter select {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  color: #455a64;
+}
+
+.pets-filter select option {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #455a64;
+  background-color: #f2f2f2;
+}
+
+.pets-filter-header {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.pets-filter-weight,
+.pets-filter-height {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.pets-filter-weight input,
+.pets-filter-height input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pets-filter-weight input:focus,
+.pets-filter-height input:focus {
+  outline: none;
+}
+
+.pets-filter-name {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.pets-filter-name input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pets-filter-name input:focus {
+  outline: none;
+}
+
+.pets-filter-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.search-basic {
+  margin-right: 20px;
+}

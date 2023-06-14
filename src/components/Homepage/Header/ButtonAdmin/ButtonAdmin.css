@@ -1,0 +1,38 @@
+.button-admin {
+  color: white;
+  background-color: #C48879;
+  border: #C48879;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0 10px;
+  padding: 0 20px;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.button-admin:hover {
+  background-color: #C48879;
+  border: #C48879;
+  font-size: 27px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.button-admin:active {
+  background-color: #f0a997 !important;
+  border: #f0a997 !important;
+}
+
+.button-admin-dashboard {
+  margin-left: 86px;
+}
+
+.button-admin-addpet {
+  padding: 0 42px;
+}

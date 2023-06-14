@@ -1,0 +1,36 @@
+.signup-form label {
+  margin-top: 0.5rem;
+  font-size: 13px;
+  color: #455a64ad;
+}
+
+.text-error {
+  color: #95190C;
+  font-size: 12px;
+}
+
+.error-focus:focus {
+  border-color: #951a0c49;
+  box-shadow: 0 0 0 0.2rem #951a0c49;
+}
+
+.signup-image {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 55%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.text-server-error {
+  color: #95190C;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cancel-button:active {
+  background-color: #c22614 !important;
+  border: none !important;
+}

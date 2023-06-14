@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Alphakind';
+  src: url('./fonts/Alphakind.woff2') format('truetype');
+}
+
+#root, *, ::after, ::before, html, body {
+  box-sizing: none;
+}
+
+#root, html, body{
+  margin: 0;
+  padding: 0; 
+  font-family: 'Alphakind', sans-serif;
+  color: white;
+  width: 100%;
+  height: 100%;
+  background: #C48879;
+}
+
+.App {
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  top: 0.3rem;
+  left: 0.75rem;
+  color: #ced4da;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon input {
+  padding-left: 2.5rem;
+}
+
+.input-icon textarea {
+  padding-left: 2.5rem;
+}
+
+.select-icon {
+  position: absolute;
+}
+
+.select-icon select {
+  padding-left: 2.5rem;
+}
+
